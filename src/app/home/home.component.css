@@ -1,0 +1,82 @@
+.hero-container {
+  background: url(/assets/images/home_beach.jpg) no-repeat;
+  background-size: cover;
+}
+
+.book-now-container {
+}
+
+.book-now-button {
+  width: 170px;
+  color: #fff;
+  border: 1.5px solid #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 35px 115px;
+}
+
+.header-container {
+  height: calc(100vh - 106.6px);
+  text-align: center;
+}
+.header-container .mat-display-4 {
+ color: ivory;
+}
+
+
+/* @media all and (min-width: 768px){
+    .hero-container{
+        height: 90vh;
+    }
+}
+@media all and (min-width: 599){
+    .hero-container .mat-display-1{
+       font-size:1.1rem;
+       line-height: 1.1;
+    }
+    .hero-container .mat-display-4{
+       font-size:3rem;
+       line-height: 1.1;
+    }
+} */
+
+.thailand{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50px, -30px);
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+.thailand h3{
+-webkit-text-fill-color: transparent;
+background: url(/assets/images/thailand_text_background.jpg);
+-webkit-background-clip: text;
+font-stretch: normal;
+font-size: 200px;
+letter-spacing: 0.09em;
+font-weight:500;
+text-transform: uppercase;
+font-family: Rubik, sans-serif;
+margin: 0 auto;
+
+}
+div p {
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.rooms-home-display{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+.rooms-home-display {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px;
+}
